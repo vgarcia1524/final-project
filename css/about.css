@@ -59,10 +59,10 @@ nav ul a li{
 }
 
 nav ul a li:hover{
-    background-color: cadetblue;
+    background-color: #d8dbdb;
 }
 nav ul a li:active{
-    background-color: brown;
+    background-color: #acb0b0;
 }
 nav ul a{
     text-decoration: none;
@@ -321,7 +321,7 @@ main{
  }
  
  .owner-picture {
-   width: 250px;
+   width: 200px;
    height: 250px;
  }
 
@@ -516,7 +516,7 @@ footer (max-width: 880px) {
           margin-left: 0;
       }
   
-  }
+  
   
 
 
