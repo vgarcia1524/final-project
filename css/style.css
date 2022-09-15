@@ -112,7 +112,7 @@ main{
     
 
 }
-/*----------Filter area-------- */
+/*----------Filter Title-------- */
 
 .title-container {
     width: 100%;
@@ -131,67 +131,53 @@ main{
 
 }
 
+/*----------Filter section-------- */
+
 .filter-section {
     width: 100%;
     background-color: #296068d2;
+    justify-content: center;
 
 
 }
 
 .filter-container {
-    margin-left: 50px;
-    width: 1000px;
-    height: 200px;
-    display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 500px;
-    clear: left;
-    
+    width: 80%;
+    height: 300px;
+   justify-content: center;
+   margin-left: 14%;
+   padding-top:80px;
+  
 
 }
 
 .container-1 {
-    width: 600px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-    border-radius: 10px;
-    margin-left: 200px;
+   float: left;
 }
 
 .container-2 {
-    margin-left: 50px ;
-    width: 600px;
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
 }
 .search-1{
-    border: 1px solid rgba(0, 0, 0, 0.671);
+   width: 400px;
+   height:  70px;
     border-radius: 10px;
-    width: 600px;
     display: flex;
-    align-items: left;
     justify-content: center;
     padding: 20px 20px;
     border: 2px solid black;
     cursor: pointer;
-
  
 
 }
 .search-2 {
-    border: 1px solid rgba(0, 0, 0, 0.671);
+    width: 400px;
+   height:  70px;
     border-radius: 10px;
-    width: 600px;
     display: flex;
-    align-items: left;
     justify-content: center;
     padding: 20px 20px;
     border: 2px solid black;
@@ -200,23 +186,38 @@ main{
 }
 
 .container-button {
-  
+  padding: 10px;
 }
 
 .search-button {
- 
     height: 50px;
     width: 200px;
     margin-left: 50px;
-    background-color: #dbf5dc;
+    background-color: white;
     color: rgb(0, 0, 0);
     padding: 12px 20px;
-    border: none;
+    border: 1px solid black;
     cursor: pointer;
     border-radius: 10px;
-;
 
 }
+
+.search-button:hover{
+    background-color: #e4f5f5;
+}
+.search-button:active{
+    background-color: #aac3c3;
+    
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
 
 
 

@@ -168,7 +168,6 @@ section, article{
     height: 500px;
     width: 50%;
     text-align: center;
-   
     float: left;
 
 }
@@ -404,7 +403,11 @@ section, article{
   .footer-distributed .footer-icons{
       margin-top: 25px;
 
+
   }
+
+
+
   
   .footer-distributed .footer-icons a{
       display: inline-block;
@@ -412,7 +415,6 @@ section, article{
       height: 35px;
       cursor: pointer;
       margin-left: 15px;
-
       border-radius: 2px;
   
       font-size: 20px;
@@ -449,5 +451,4 @@ footer (max-width: 880px) {
   
   
 
-
-
+      .
