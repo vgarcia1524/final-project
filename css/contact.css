@@ -56,7 +56,7 @@ nav ul a li{
     display: inline-block;
     margin: 0 -3px;
     padding: 18px 30px;
-    /* background-color: burlywood; */
+   
 }
 
 nav ul a li:hover{
@@ -118,7 +118,7 @@ main{
 
 
 
-/* Style inputs */
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -140,7 +140,7 @@ input[type=text], select, textarea {
     background-color: #119097;
   }
   
-  /* Style the container/contact section */
+
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -148,7 +148,7 @@ input[type=text], select, textarea {
     padding-top: 80px;
   }
   
-  /* Create two columns that float next to eachother */
+
   .column {
     float: left;
     width: 50%;
@@ -156,14 +156,14 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;

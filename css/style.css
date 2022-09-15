@@ -56,7 +56,7 @@ nav ul a li{
     display: inline-block;
     margin: 0 -3px;
     padding: 18px 30px;
-    /* background-color: burlywood; */
+
 }
 nav ul a li:hover{
     background-color: #d8dbdb;
@@ -437,14 +437,13 @@ footer{
       display: inline-block;
       vertical-align: top;
   }
-  
-  /* Footer left */
+
   
   .footer-distributed .footer-left{
       width: 40%;
   }
   
-  /* The company logo */
+
   
   .footer-distributed h3{
       color:  #000000;
@@ -456,7 +455,7 @@ footer{
       color:  lightseagreen;
   }
   
-  /* Footer links */
+
   
   .footer-distributed .footer-links{
       color:  #000000;
@@ -479,7 +478,7 @@ footer{
       margin: 0;
   }
   
-  /* Footer Center */
+
   
   .footer-distributed .footer-center{
       width: 35%;
