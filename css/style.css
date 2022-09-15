@@ -73,25 +73,26 @@ nav ul a{
 /*----------Slideshow Area-------- */
 
 main{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.833), rgba(155, 150, 153, 0.01)),
+    url(./img/event-cake.jpg);
     width: 100%;
-    height: 800px;
-    background-image: url(./img/event-cake.jpg);
+    height: 1100px;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
+    color: rgba(0, 0, 0, 0.779);
+    padding: 20px;
 }
 
 
 .hero-copy{
     width: 400px;
-    height: auto;
+    height: 150px;
     text-align: center;
     float: left;
     position: relative;
     top: 30%;
     left: 8%;
-    background-color: rgba(255, 255, 255, 0.695);
+    background-color: rgb(255, 255, 255);
     padding: 15px;
     border-radius: 15px;
     box-shadow:2px 2px rgba(136, 136, 136, 0.58) ;
@@ -103,7 +104,7 @@ main{
 }
 
 .hero-copy h2{
-    text-shadow:.5px .5px rgba(136, 136, 136, 0.58) ;
+    text-shadow: black ;
     text-transform: uppercase;
     text-align: center;
     margin-top: 30px;
@@ -111,6 +112,113 @@ main{
     
 
 }
+/*----------Filter area-------- */
+
+.title-container {
+    width: 100%;
+    background-color: #296068d2;
+
+}
+
+.search-title {
+    padding-top: 50px;
+    height: 0px;
+    width: 100%;
+   text-align: center;
+   border: 0px solid black;
+   
+ 
+
+}
+
+.filter-section {
+    width: 100%;
+    background-color: #296068d2;
+
+
+}
+
+.filter-container {
+    margin-left: 50px;
+    width: 1000px;
+    height: 200px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+    clear: left;
+    
+
+}
+
+.container-1 {
+    width: 600px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+.container-2 {
+    margin-left: 50px ;
+    width: 600px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.search-1{
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 20px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+
+ 
+
+}
+.search-2 {
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 20px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+.container-button {
+  
+}
+
+.search-button {
+ 
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+    background-color: #dbf5dc;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+;
+
+}
+
+
 
 /*--------How it works area------------ */
 
